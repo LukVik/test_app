@@ -1,0 +1,29 @@
+# MySQL.  Versions 4.1 and 5.0 are recommended.
+#
+#
+# Be sure to use new-style password hashing:
+#   http://dev.mysql.com/doc/refman/5.0/en/old-client.html
+development:
+  adapter: mysql2
+  database: test_app_development
+  pool: 5
+  encoding: false
+  username: root
+  password: "janmarek"
+
+test:
+  adapter: mysql2
+  database: smelending_test
+  pool: 5
+  encoding: false
+  username: root
+  password: "janmarek"
+
+production:
+  adapter: mysql2
+  database: heroku_8952fbb474e0854
+  pool: 5
+  encoding: false
+  username: b484cb9e6765fa
+  password: "015ecb5b"
+  host: eu-cdbr-west-02.cleardb.net

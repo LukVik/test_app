@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Websites</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Website url</th>
+      <th>E-mail</th>
+      <th>ip</th>
+      <th>Location</th>
+      <th>Created at</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @websites.each do |website| %>
+      <tr>
+        <td><%= website.url %></td>
+        <td><%= website.email %></td>
+        <td><%= website.ip %></td>
+        <td><%= website.location_info %></td>
+        <td><%= website.created_at %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

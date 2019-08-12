@@ -1,0 +1,5 @@
+0000000000000000000000000000000000000000 c81df79901694641abd2f616c22d522fb9249bc3 petule <petra@pkis.cz> 1564082449 +0200	commit (initial): first commit
+c81df79901694641abd2f616c22d522fb9249bc3 b722cfb7fc1360f57d22a8f9a86b64cef38a3ab0 LukVik <lukaswvik@gmail.com> 1564083412 +0200	commit: init
+b722cfb7fc1360f57d22a8f9a86b64cef38a3ab0 852ff8bd0d33801e1f5178e94efb99c37c4b5687 LukVik <lukaswvik@gmail.com> 1564166895 +0200	commit: Recaptcha init
+852ff8bd0d33801e1f5178e94efb99c37c4b5687 bbcf23199985a63aa0ddc68d29e12800a1a4ebf5 LukVik <lukaswvik@gmail.com> 1564169630 +0200	commit: git rm-r--cached .idea gitignore edit
+bbcf23199985a63aa0ddc68d29e12800a1a4ebf5 b7f1d4fa3aaef497b9250558c96cae0480c3edd4 LukVik <lukaswvik@gmail.com> 1564379220 +0200	commit: first commit
