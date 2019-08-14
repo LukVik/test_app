@@ -5,7 +5,7 @@ class Website < ApplicationRecord
   validates :url, url: true
 
   # with custom schemes
-  validates :url, url: { schemes: ['https'] }
+  # validates :url, url: { schemes: ['https'] }
 
   # with public suffix database https://publicsuffix.org/
   validates :url, url: { public_suffix: true }
